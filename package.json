@@ -80,6 +80,7 @@
         "moment-timezone": "^0.5.48",
         "mongoose": "^6.13.8",
         "mumaker": "^1.0.0",
+        "node-cache": "^5.1.2",
         "node-cron": "^3.0.3",
         "node-fetch": "^2.7.0",
         "node-id3": "^0.2.9",
@@ -106,6 +107,6 @@
         "wa-sticker-formatter": "^4.4.4",
         "yargs": "^17.7.2",
         "youtube-yts": "^2.0.0",
-        "youtubedl-core": "^4.11.7"
+        "ytdl-core": "^4.11.5"
     }
 }
