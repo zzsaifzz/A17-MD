@@ -1,5 +1,5 @@
 {
-    "name": "a17",
+    "name": "dazai-bot",
     "version": "1.0.0",
     "description": "A17 is a WhatsApp multidevice bot built with Baileys written in Node.js",
     "main": "index.js",
@@ -17,7 +17,7 @@
     "keywords": [
         "md-bot"
     ],
-    "author": "Aeon",
+    "author": "saif",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/Aeon-San/A17-MD/issues"

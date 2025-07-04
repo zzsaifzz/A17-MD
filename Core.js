@@ -516,7 +516,7 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
 
 
     //     const menulist = `
-    //     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Kai to take your WhatsApp usage into next level.
+    //     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: saif to take your WhatsApp usage into next level.
 
     //        「 System Info 」
 
@@ -546,7 +546,7 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
 
     //     Type *-menu* or press any button below to start using *${global.BotName}*
 
-    //     ©️ *${global.BotName}* All Rights Reserved by: *Kai*
+    //     ©️ *${global.BotName}* All Rights Reserved by: *saif*
     //     `
     //         const qtod = m.quoted? "true":"false"
 
@@ -812,8 +812,8 @@ Typed *surrender* to surrender and admited defeat`
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "❤", key: m.key } })
 
-        let { data } = await axios.get('https://api.github.com/repos/Kai0071/A17');
-        teks = `*A17 Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/Kai0071/A17\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
+        let { data } = await axios.get('https://api.github.com/repos/saif/dazai-bot');
+        teks = `*dazai-bot Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/saif/dazai-bot\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
         /*  let buttons = [
           {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
           ] */
@@ -826,14 +826,14 @@ Typed *surrender* to surrender and admited defeat`
            headerType: 4, */
           contextInfo: {
             externalAdreply: {
-              title: "Powered by Kai",
+              title: "Powered by saif",
               body: " ",
               thumbnail: fs.readFileSync("Assets/pic2.jpg"),
               mediaType: 1,
               //mediaUrl: 'https://wallpapercave.com/wp/wp10524580.jpg',
               //sourceUrl: "https://wallpapercave.com/wp/wp10524580.jpg"
-              mediaUrl: 'github.com/Kai0071/A17',
-              sourceUrl: "github.com/Kai0071/A17"
+              mediaUrl: 'github.com/saif/dazai-bot',
+              sourceUrl: "github.com/saif/dazai-bot"
             }
           }
 
@@ -860,8 +860,8 @@ Typed *surrender* to surrender and admited defeat`
 
           await A17.sendMessage(from, { react: { text: "❤", key: m.key } });
 
-          let { data } = await axios.get('https://api.github.com/repos/Kai0071/A17');
-          let teks = `                      *A17's Script*\n\n                 *Total Stars*: ${data.stargazers_count}⭐\n              *Total Forks*: ${data.forks_count} forks\n    *GitHub*: github.com/Kai0071/A17\n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
+          let { data } = await axios.get('https://api.github.com/repos/saif/dazai-bot');
+          let teks = `                      *dazai-bot's Script*\n\n                 *Total Stars*: ${data.stargazers_count}⭐\n              *Total Forks*: ${data.forks_count} forks\n    *GitHub*: github.com/saif/dazai-bot\n\nDon't forget to follow me on *GitHub* and give a ⭐️ to my projects.`;
 
           let msg = generateWAMessageFromContent(m.key.remoteJid, {
             viewOnceMessage: {
@@ -875,10 +875,10 @@ Typed *surrender* to surrender and admited defeat`
                     text: teks
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "                    Powered by A17"
+                    text: "                    Powered by dazai-bot"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
-                    title: "                        A17 2024",
+                    title: "                        dazai-bot 0781364247",
                     subtitle: "Test Subtitle",
                     hasMediaAttachment: false
                   }),
@@ -886,7 +886,7 @@ Typed *surrender* to surrender and admited defeat`
                     buttons: [
                       {
                         "name": "cta_url",
-                        "buttonParamsJson": "{\"display_text\":\"Bot Source Code\",\"url\":\"https://github.com/Kai0071/A17\",\"merchant_url\":\"https://github.com/Kai0071/A17\"}"
+                        "buttonParamsJson": "{\"display_text\":\"Bot Source Code\",\"url\":\"https://github.com/saif/dazai-bot\",\"merchant_url\":\"https://github.com/saif/dazai-bot\"}"
                       }
                     ]
                   })
@@ -2699,7 +2699,7 @@ Typed *surrender* to surrender and admited defeat`
       case 'ghstalk': case 'githubstalk': case 'github': {
         A17.sendMessage(from, { react: { text: "🔍", key: m.key } })
 
-        if (!q) return reply(`Give me a user name like *${prefix}github Kai0071*`)
+        if (!q) return reply(`Give me a user name like *${prefix}github saif*`)
 
         gitdata = await githubstalk.githubstalk(`${q}`)
         A17.sendMessage(m.chat, {
@@ -2742,7 +2742,7 @@ Typed *surrender* to surrender and admited defeat`
         A17.sendMessage(from, { react: { text: "💫", key: m.key } });
 
         if (!args[0]) {
-          return reply(`Please provide the GitHub repository link.\nExample:\n${prefix}${command} https://github.com/Kai0071/A17`);
+          return reply(`Please provide the GitHub repository link.\nExample:\n${prefix}${command} https://github.com/saif/dazai-bot`);
         }
 
         if (!isUrl(args[0]) || !args[0].includes('github.com')) {
@@ -3837,7 +3837,7 @@ Typed *surrender* to surrender and admited defeat`
                   text: null
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: '            Powered by A17 2024'
+                  text: '            Powered by dazai-bot 0781364247'
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   ...(await prepareWAMessageMedia({ image: { url: 'https://graph.org/file/4ca10c7029fcaee1003f7.jpg' } }, { upload: A17.waUploadToServer })),
@@ -7151,7 +7151,7 @@ _Click the button below to download_`
           ╰────────────···▸
           
           
-          Powered by A17 2024`;
+          Powered by dazai-bot 0781364247`;
 
         // Send simple text message with image like other commands
         A17.sendMessage(from, { 

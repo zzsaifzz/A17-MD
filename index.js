@@ -390,7 +390,7 @@ module.exports = async function startA17() {
               A17text = `
     Hello @${WAuserName.split("@")[0]},
     
-    I am *A17 Bot*, Welcome to ${metadata.subject}.
+    I am *dazai-bot*, Welcome to ${metadata.subject}.
     
     *Group Description:*
     ${metadata.desc}
@@ -491,7 +491,7 @@ module.exports = async function startA17() {
               A17text = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *A17 Bot*, Welcome to ${metadata.subject}.
+I am *dazai-bot*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}

@@ -1,13 +1,13 @@
-<h1 align="center"> ✧ A17 ✧ </h1>
+<h1 align="center"> ✧ dazai-bot ✧ </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=40&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=Welcome+to+A17+MD+!;Explore+the+world+of+features!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=40&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=Welcome+to+dazai-bot+MD+!;Explore+the+world+of+features!" />
 </p>
 
-<h1 align="center"> A17 Bot</h1>
+<h1 align="center"> dazai-bot</h1>
 
 <p align="center"> 
-  Hi there, I'm <strong>A17</strong>, a versatile WhatsApp bot created and reprogrammed by <strong>Aeon</strong> to perform a wide array of functions based on WhatsApp Multi-Device (MD) support.
+  Hi there, I'm <strong>dazai-bot</strong>, a versatile WhatsApp bot created and reprogrammed by <strong>saif</strong> to perform a wide array of functions based on WhatsApp Multi-Device (MD) support.
 </p>
 
 ---
@@ -16,7 +16,7 @@
 
 > 🚫 **Archived** — This project is no longer actively maintained.
 
-I’ve decided to sunset active development and maintenance on the A17 WhatsApp bot. While the repo and codebase will stay public for learning and inspiration, I won't be pushing new updates or fixing issues going forward.
+I’ve decided to sunset active development and maintenance on the dazai-bot WhatsApp bot. While the repo and codebase will stay public for learning and inspiration, I won't be pushing new updates or fixing issues going forward.
 
 > 🧠 **Stay tuned.**
 
@@ -31,13 +31,13 @@ You're free to fork, clone, and remix it however you like — just make sure to 
 
 For any self-hosting or customization, you’re on your own from here — but the code’s all there.
 
-> 💡 Want to build your own bot? Use A17 as a base and make it yours — or if you want to improve it, go wild and make it even better!
+> 💡 Want to build your own bot? Use dazai-bot as a base and make it yours — or if you want to improve it, go wild and make it even better!
 
 ---
 
 ## ✨ Thank You
 
-Thanks to everyone who supported, contributed, tested, or just vibed with A17. You made this journey hella fun 🫶
+Thanks to everyone who supported, contributed, tested, or just vibed with dazai-bot. You made this journey hella fun 🫶
 
 ---
 
@@ -92,7 +92,7 @@ Thanks to everyone who supported, contributed, tested, or just vibed with A17. Y
 <h2 align="center"> 🍁  Run Repl for Multi Session QR  🍁 </h2>
 
 <h2 align="center">
-  <a href="https://replit.com/@Kai0071/A17-Multi-Session?v=1">
+  <a href="https://replit.com/@saif/dazai-bot-Multi-Session?v=1">
     <img src="https://repl.it/badge/github/quiec/whatsasena" />
   </a>
 </h2>
@@ -112,8 +112,8 @@ Thanks to everyone who supported, contributed, tested, or just vibed with A17. Y
 global.Owner = ["916297175943"];
 global.OwnerNumber = ["916297175943"];
 global.ownertag = ["916297175943"];
-global.OwnerName = "Aeon";
-global.BotName = "A17";
+global.OwnerName = "saif";
+global.BotName = "dazai-bot";
 
 ```
 <br>
@@ -122,7 +122,7 @@ global.BotName = "A17";
 
 <h2 align="center">
   <a href="https://github.com/codespaces/new">
-    <img title="A17 on GitHub Codespaces" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode" />
+    <img title="dazai-bot on GitHub Codespaces" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode" />
   </a>
 </h2>
 <br>
@@ -131,7 +131,7 @@ global.BotName = "A17";
 
 <h2 align="center">
   <a href="https://railway.app/new">
-    <img title="A17 on Railway" src="https://railway.app/button.svg" />
+    <img title="dazai-bot on Railway" src="https://railway.app/button.svg" />
   </a>
 </h2>
 <br>
@@ -140,7 +140,7 @@ global.BotName = "A17";
 
 <p align="center">
   <a href="https://heroku.com/deploy?template=https://github.com/Aeon-San/A17-MD">
-    <img title="A17 on Heroku" src="https://www.herokucdn.com/deploy/button.png" alt="Deploy on Heroku">
+    <img title="dazai-bot on Heroku" src="https://www.herokucdn.com/deploy/button.png" alt="Deploy on Heroku">
   </a>
 </p>
 <br>
@@ -192,10 +192,10 @@ pkg install wget
 pkg install imagemagick -y
 ```
 ```
-git clone https://github.com/Aeon-San/A17-MD
+git clone https://github.com/saif/dazai-bot
 ```
 ```
-cd A17
+cd dazai-bot
 ```
 ```
 npm i
@@ -219,10 +219,10 @@ npm i -g forever && forever index.js && forever save && forever logs
 - [Download Libwebp](https://developers.google.com/speed/webp/download)
 
 ```cmd
-> git clone https://github.com/Aeon-San/A17-MD.git
+> git clone https://github.com/saif/dazai-bot.git
 ```
 ```
-> cd A17
+> cd dazai-bot
 ```
 ```
 > npm i

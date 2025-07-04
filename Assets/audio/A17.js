@@ -1,3 +1,3 @@
 {
-	"name": "A17 Bot Multi Device "
+	"name": "dazai-bot Multi Device "
 }
