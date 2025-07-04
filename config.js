@@ -19,7 +19,7 @@ global.auth = process.env.AUTH || "qr";                // Changed from "QR" to "
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
 global.mongodb = process.env.MONGODB || "";                 // Mongodb url
 global.website = ""; 
-global.github = "https://github.com/Aeon-San";
+global.github = "https://github.com/saif";
 
 // Default prefix
 global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
@@ -28,10 +28,10 @@ global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
 global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["916297175943"];
 global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["916297175943"];
 global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["916297175943"];
-global.OwnerName = process.env.OWNER_NAME || "Aeon";
-global.BotName = process.env.BOT_NAME || "A17";
-global.packname = process.env.PACK_NAME || "A17 Bot";
-global.author = "VYSH EON";
+global.OwnerName = process.env.OWNER_NAME || "saif";
+global.BotName = process.env.BOT_NAME || "dazai-bot";
+global.packname = process.env.PACK_NAME || "dazai-bot";
+global.author = "saif";
 global.BotSourceCode = "https://github.com/Aeon-San/A17-MD";
 global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
 
